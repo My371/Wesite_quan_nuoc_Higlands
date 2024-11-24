@@ -1,0 +1,28 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --brown-color: #53382c;
+}
+* {
+  box-sizing: inherit;
+  font-size: 14px;
+}
+html {
+  font-size: 62.5%;
+  line-height: 2.2rem;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid_full_width {
+  with: 100%;
+}
+.gird_row {
+  display: flex;
+  flex-wrap: wrap;
+}
